@@ -1,0 +1,12 @@
+body {font-family:Arial, Helvetica, sans-serif;
+}
+
+.main {background-image: url(https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/02/Palm-Leaves-Wallpaper.png?fit=3840%2C2160&ssl=1);
+position:fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
+font-size:24px;
+color:rgb(250, 252, 252);
+}
