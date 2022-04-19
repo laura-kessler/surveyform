@@ -1,4 +1,5 @@
 body {font-family:Arial, Helvetica, sans-serif;
+    
 }
 
 .main {background-image: url(https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/02/Palm-Leaves-Wallpaper.png?fit=3840%2C2160&ssl=1);
@@ -9,4 +10,18 @@ left:0;
 right:0;
 font-size:24px;
 color:rgb(250, 252, 252);
+overflow:scroll;
+}
+
+
+#title {text-align: center;}
+
+#description {text-align:center;
+font-size:20px;}
+
+#survey-form {background-color:rgb(41, 155, 248);
+opacity:0.5;
+border-radius: 5px;
+padding:30px;
+margin:50px;
 }
