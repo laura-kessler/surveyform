@@ -1,0 +1,50 @@
+<h1 id="title"> Hotel Survey</h1>
+
+<p id="description"> Please help us to improve our services </p>
+
+<form id="survey-form"> 
+
+  <label for="name" id="name-label" > Name </label>
+  <input id="name" type="text" name="name" placeholder="Enter your name" required> </input>
+  <br>
+
+  <label for="email" id="email-label"> Email </label>
+  <input id="email"  type="email" name="email" placeholder="Enter your email" required> </input>
+  
+  <br>
+  
+  <label for="number" id="number-label"> Age </label>
+  <input id="number"  type="number" name="number" placeholder="18" min="18" max="100" required></input>
+
+  <br> 
+
+<label for="dropdown"> What cuisine did you enjoy the best?</label>
+<select id="dropdown">
+  <option value="Italian">Italian</option>
+  <option value="Indian">Indian</option>
+  <option value="American">American</option>
+  <option value="Chinese">Chinese</option>
+  <option value="Mexican">Mexican</option>
+</select>
+
+
+<fieldset>
+  <legend> Would you stay here again? </legend>
+  <input type="radio" name="action" checked id="yes" value="yes" /><label for="yes">Yes</label><br />
+  
+   <input type="radio" name="action" checked id="maybe" value="maybe" /><label for="maybe">Maybe</label><br />
+  
+   <input type="radio" name="action" checked id="no" value="no" /><label for="no">No</label><br />
+  
+  
+  <p> Which area did you use the most? </p>
+  <input type="checkbox" id="pool" name="pool" value="pool"><label for="pool">Pool</label><br>
+  
+   <input type="checkbox" id="arcade" name="arcade" value="arcade"><label for="arcade">Arcade</label><br>
+  
+   <input type="checkbox" id="sauna" name="sauna" value="sauna"><label for="sauna">Sauna</label><br>
+  
+  <textarea> Additional Comments  </textarea>
+  
+  <button type="submit" id="submit"> Submit </button>
+</form>
