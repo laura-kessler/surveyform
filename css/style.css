@@ -33,13 +33,13 @@ color: rgb(245, 245, 245);
     background-color: #feffff;
     color: rgb(0, 0, 0);
     padding: 14px 20px;
-    margin: 8px 0;
+    margin:8px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    display:inline-block
 
   }
-
 
   .drop {margin:8px;
 padding:14px;}
@@ -55,7 +55,10 @@ textarea {background-color: rgb(195, 247, 247);
 padding:20px;
 margin:20px;
 border-radius:5px;
-border-color: blue;}
+border-color: blue;
+font-family: Arial, Helvetica, sans-serif;
+font-size:12px;
+}
 
 
 #submit {background-color:rgb(109, 236, 236);
